@@ -9,26 +9,26 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@univerjs/core": "*",
-    "@univerjs/design": "*",
-    "@univerjs/docs": "*",
-    "@univerjs/engine-formula": "*",
-    "@univerjs/engine-render": "*",
-    "@univerjs/sheets": "*",
-    "@univerjs/sheets-formula": "*",
-    "@univerjs/sheets-ui": "*",
-    "@univerjs/ui": "*",
+    "@univerjs/core": "0.1.0-beta.5",
+    "@univerjs/design": "0.1.0-beta.5",
+    "@univerjs/docs": "0.1.0-beta.5",
+    "@univerjs/engine-formula": "0.1.0-beta.5",
+    "@univerjs/engine-render": "0.1.0-beta.5",
+    "@univerjs/sheets": "0.1.0-beta.5",
+    "@univerjs/sheets-formula": "0.1.0-beta.5",
+    "@univerjs/sheets-ui": "0.1.0-beta.5",
+    "@univerjs/ui": "0.1.0-beta.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.51",
-    "@types/react-dom": "^18.2.18",
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
     "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "vite": "^5.0.12"
+    "vite": "^5.1.4"
   }
 }
