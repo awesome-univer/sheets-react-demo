@@ -6,32 +6,32 @@ settings:
 
 dependencies:
   '@univerjs/core':
-    specifier: 0.1.0-beta.5
-    version: 0.1.0-beta.5(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+    specifier: 0.1.1
+    version: 0.1.1(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
   '@univerjs/design':
-    specifier: 0.1.0-beta.5
-    version: 0.1.0-beta.5(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+    specifier: 0.1.1
+    version: 0.1.1(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
   '@univerjs/docs':
-    specifier: 0.1.0-beta.5
-    version: 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+    specifier: 0.1.1
+    version: 0.1.1(@univerjs/core@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
   '@univerjs/engine-formula':
-    specifier: 0.1.0-beta.5
-    version: 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+    specifier: 0.1.1
+    version: 0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
   '@univerjs/engine-render':
-    specifier: 0.1.0-beta.5
-    version: 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+    specifier: 0.1.1
+    version: 0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
   '@univerjs/sheets':
-    specifier: 0.1.0-beta.5
-    version: 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/engine-formula@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+    specifier: 0.1.1
+    version: 0.1.1(@univerjs/core@0.1.1)(@univerjs/engine-formula@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
   '@univerjs/sheets-formula':
-    specifier: 0.1.0-beta.5
-    version: 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/design@0.1.0-beta.5)(@univerjs/docs@0.1.0-beta.5)(@univerjs/engine-formula@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@univerjs/sheets-numfmt@0.1.0-beta.5)(@univerjs/sheets-ui@0.1.0-beta.5)(@univerjs/sheets@0.1.0-beta.5)(@univerjs/ui@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+    specifier: 0.1.1
+    version: 0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/docs@0.1.1)(@univerjs/engine-formula@0.1.1)(@univerjs/engine-render@0.1.1)(@univerjs/sheets-numfmt@0.1.1)(@univerjs/sheets-ui@0.1.1)(@univerjs/sheets@0.1.1)(@univerjs/ui@0.1.1)(@wendellhu/redi@0.13.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
   '@univerjs/sheets-ui':
-    specifier: 0.1.0-beta.5
-    version: 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/design@0.1.0-beta.5)(@univerjs/docs@0.1.0-beta.5)(@univerjs/engine-formula@0.1.0-beta.5)(@univerjs/engine-numfmt@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@univerjs/sheets@0.1.0-beta.5)(@univerjs/ui@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+    specifier: 0.1.1
+    version: 0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/docs@0.1.1)(@univerjs/engine-formula@0.1.1)(@univerjs/engine-numfmt@0.1.1)(@univerjs/engine-render@0.1.1)(@univerjs/sheets@0.1.1)(@univerjs/ui@0.1.1)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
   '@univerjs/ui':
-    specifier: 0.1.0-beta.5
-    version: 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/design@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+    specifier: 0.1.1
+    version: 0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -838,8 +838,8 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@univerjs/core@0.1.0-beta.5(@wendellhu/redi@0.13.0)(rxjs@7.8.1):
-    resolution: {integrity: sha512-gj22jCxRuv2dR02/DZiTJsRCKi+ndij/gLNvjN4AQXzUVLpiJ21UzD8u1Tk6KQ6hoFmjdk6yOdEYKixzY/wbkw==}
+  /@univerjs/core@0.1.1(@wendellhu/redi@0.13.0)(rxjs@7.8.1):
+    resolution: {integrity: sha512-t+5ALADI+O9a3mNhJGF4OChvQm+yZMIV9YFOObEngayaNXNYrkiU5cpmj4G0aCBvywYFLQ+lASxYgM0UuIA0RA==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
       '@wendellhu/redi': ^0.13.0
@@ -852,8 +852,8 @@ packages:
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/design@0.1.0-beta.5(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1):
-    resolution: {integrity: sha512-QhDRQEoekAd2ZAa52Y8nnzz4hncDO9lfPVBjbpl7iMPwQIDk5rNx8dzZcis6KtAMjhdwMja/MMhmeipNHfeHVw==}
+  /@univerjs/design@0.1.1(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1):
+    resolution: {integrity: sha512-8XhwvDVR4uLt+K662nbW9lRk3Y9Lvu2ZYemowm6mp/pq8PTfJw9Dv9jSvQfFfBc6qhDFno2GwaRu9bzNVoLV/Q==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
       react: '>=16.9.0'
@@ -878,51 +878,51 @@ packages:
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/docs@0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1):
-    resolution: {integrity: sha512-jxKjgJIzub+evhjRSnFnQ/4nBzmmaZL6L2DzPjcDlf+hteFtn47WtEvm9TZ/CWCswzuP0fF/i2eAqhdXt8NVHw==}
+  /@univerjs/docs@0.1.1(@univerjs/core@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1):
+    resolution: {integrity: sha512-d2515CaAP1hpDlerwz2c/B6dPhS70LU2i9DakZEEAEOMMi16J0SFU1Bx+nhGWlDV7u2GVwadSySmNmIZE7W61Q==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
-      '@univerjs/core': 0.1.0-beta.5
-      '@univerjs/engine-render': 0.1.0-beta.5
+      '@univerjs/core': 0.1.1
+      '@univerjs/engine-render': 0.1.1
       '@wendellhu/redi': ^0.13.0
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.1.0-beta.5(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/core': 0.1.1(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/engine-render': 0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@wendellhu/redi': 0.13.0
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/engine-formula@0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1):
-    resolution: {integrity: sha512-pG9AM06ZOOZxXkMMuInlordCwSBqMt84Me24OgjXacmiRVCeHwjcBhcjDzjxNvFW8gyN9ZJIWYsEHIs0jt0qOQ==}
+  /@univerjs/engine-formula@0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1):
+    resolution: {integrity: sha512-2j9uu9N2H2EIHGJ5Ji8b74Ay9GAB5YZyY28g/Qf242Hsxy/ki6QhFYYH0TlEpKBHQT+V6I9kcACpzjDWCPEzUA==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
-      '@univerjs/core': 0.1.0-beta.5
+      '@univerjs/core': 0.1.1
       '@wendellhu/redi': ^0.13.0
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.1.0-beta.5(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/core': 0.1.1(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@wendellhu/redi': 0.13.0
       big.js: 6.2.1
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/engine-numfmt@0.1.0-beta.5:
-    resolution: {integrity: sha512-8n7lI/OIKJTGHkI0fdJCOkJVnmp+ssyHknKW96MPYSN303vxU45uGb32bJX0+3jizoE+urSyK2G5XIAO3QGaBg==}
+  /@univerjs/engine-numfmt@0.1.1:
+    resolution: {integrity: sha512-NzEaXYJ4hdrG+/V/Kp+kNYqduzJcqrIssn/6lIxCPgih9atcgo5GfSXxzfofjZAqk4asQQi4yTxNkKi5kDItEQ==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     dependencies:
       numfmt: 2.5.2
     dev: false
 
-  /@univerjs/engine-render@0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1):
-    resolution: {integrity: sha512-bSFogwRIdmtmx3/iY9EHgLxC3jvJZPB/iY1o85a782GF4aRtFt3AF13OMuqC/qnhSY5e7PuWBADlkq2XruyyIw==}
+  /@univerjs/engine-render@0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1):
+    resolution: {integrity: sha512-qVJeNVnainpj9sxFj+MMi/SkHX4OMlLByaZ3vlf8x0eFvzDXkUdVJIq/FbhRaWtz6nEKGzSSAyGLkSnMMvDBsA==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
-      '@univerjs/core': 0.1.0-beta.5
+      '@univerjs/core': 0.1.1
       '@wendellhu/redi': ^0.13.0
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.1.0-beta.5(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/core': 0.1.1(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@wendellhu/redi': 0.13.0
       cjk-regex: 3.1.0
       linebreak: 1.1.0
@@ -939,33 +939,33 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@univerjs/sheets-formula@0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/design@0.1.0-beta.5)(@univerjs/docs@0.1.0-beta.5)(@univerjs/engine-formula@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@univerjs/sheets-numfmt@0.1.0-beta.5)(@univerjs/sheets-ui@0.1.0-beta.5)(@univerjs/sheets@0.1.0-beta.5)(@univerjs/ui@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1):
-    resolution: {integrity: sha512-zQ73EiCjFRwaoL5yGBbhEE+7jTWPOcKD6IDH9kBCkaKqQoCdUgBCJ7Ima8BAO56iKD7Kxc93Qy4pUUwzKtqpvw==}
+  /@univerjs/sheets-formula@0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/docs@0.1.1)(@univerjs/engine-formula@0.1.1)(@univerjs/engine-render@0.1.1)(@univerjs/sheets-numfmt@0.1.1)(@univerjs/sheets-ui@0.1.1)(@univerjs/sheets@0.1.1)(@univerjs/ui@0.1.1)(@wendellhu/redi@0.13.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1):
+    resolution: {integrity: sha512-rSSsTS7qVHikeSDqjwppAjImd5bPjb90E8fdOPS6VnAHiauB9VZuREuxbnt6b5JXZo20r62eSBA/HWe5k1s/Fw==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
-      '@univerjs/core': 0.1.0-beta.5
-      '@univerjs/design': 0.1.0-beta.5
-      '@univerjs/docs': 0.1.0-beta.5
-      '@univerjs/engine-formula': 0.1.0-beta.5
-      '@univerjs/engine-render': 0.1.0-beta.5
-      '@univerjs/sheets': 0.1.0-beta.5
-      '@univerjs/sheets-numfmt': 0.1.0-beta.5
-      '@univerjs/sheets-ui': 0.1.0-beta.5
-      '@univerjs/ui': 0.1.0-beta.5
+      '@univerjs/core': 0.1.1
+      '@univerjs/design': 0.1.1
+      '@univerjs/docs': 0.1.1
+      '@univerjs/engine-formula': 0.1.1
+      '@univerjs/engine-render': 0.1.1
+      '@univerjs/sheets': 0.1.1
+      '@univerjs/sheets-numfmt': 0.1.1
+      '@univerjs/sheets-ui': 0.1.1
+      '@univerjs/ui': 0.1.1
       '@wendellhu/redi': ^0.13.0
       react: '>=16.9.0'
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.1.0-beta.5(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/design': 0.1.0-beta.5(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
-      '@univerjs/docs': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/engine-formula': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/core': 0.1.1(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/design': 0.1.1(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+      '@univerjs/docs': 0.1.1(@univerjs/core@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/engine-formula': 0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/engine-render': 0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@univerjs/icons': 0.1.29(react-dom@18.2.0)(react@18.2.0)
-      '@univerjs/sheets': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/engine-formula@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/sheets-numfmt': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/design@0.1.0-beta.5)(@univerjs/engine-formula@0.1.0-beta.5)(@univerjs/engine-numfmt@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@univerjs/sheets-ui@0.1.0-beta.5)(@univerjs/sheets@0.1.0-beta.5)(@univerjs/ui@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
-      '@univerjs/sheets-ui': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/design@0.1.0-beta.5)(@univerjs/docs@0.1.0-beta.5)(@univerjs/engine-formula@0.1.0-beta.5)(@univerjs/engine-numfmt@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@univerjs/sheets@0.1.0-beta.5)(@univerjs/ui@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
-      '@univerjs/ui': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/design@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+      '@univerjs/sheets': 0.1.1(@univerjs/core@0.1.1)(@univerjs/engine-formula@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/sheets-numfmt': 0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/engine-formula@0.1.1)(@univerjs/engine-numfmt@0.1.1)(@univerjs/engine-render@0.1.1)(@univerjs/sheets-ui@0.1.1)(@univerjs/sheets@0.1.1)(@univerjs/ui@0.1.1)(@wendellhu/redi@0.13.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+      '@univerjs/sheets-ui': 0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/docs@0.1.1)(@univerjs/engine-formula@0.1.1)(@univerjs/engine-numfmt@0.1.1)(@univerjs/engine-render@0.1.1)(@univerjs/sheets@0.1.1)(@univerjs/ui@0.1.1)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+      '@univerjs/ui': 0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
       '@wendellhu/redi': 0.13.0
       react: 18.2.0
       rxjs: 7.8.1
@@ -973,31 +973,31 @@ packages:
       - react-dom
     dev: false
 
-  /@univerjs/sheets-numfmt@0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/design@0.1.0-beta.5)(@univerjs/engine-formula@0.1.0-beta.5)(@univerjs/engine-numfmt@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@univerjs/sheets-ui@0.1.0-beta.5)(@univerjs/sheets@0.1.0-beta.5)(@univerjs/ui@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1):
-    resolution: {integrity: sha512-qHfy70jo4Azot4gUlKvu5Csl0bZAV14WWbeZmtwjUVKiDcqLmFoBtm67kescVr11UY73QDZ4R4pUElH+ONtAZg==}
+  /@univerjs/sheets-numfmt@0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/engine-formula@0.1.1)(@univerjs/engine-numfmt@0.1.1)(@univerjs/engine-render@0.1.1)(@univerjs/sheets-ui@0.1.1)(@univerjs/sheets@0.1.1)(@univerjs/ui@0.1.1)(@wendellhu/redi@0.13.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1):
+    resolution: {integrity: sha512-YXrayX9khKQrz8lYLUYRNeJ+vG3Eh08aisy6WTVPuwArGQBWRQgaB0XWWuLTmimYSQLvsHjSVPnjxAMnx0493Q==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
-      '@univerjs/core': 0.1.0-beta.5
-      '@univerjs/design': 0.1.0-beta.5
-      '@univerjs/engine-formula': 0.1.0-beta.5
-      '@univerjs/engine-numfmt': 0.1.0-beta.5
-      '@univerjs/engine-render': 0.1.0-beta.5
-      '@univerjs/sheets': 0.1.0-beta.5
-      '@univerjs/sheets-ui': 0.1.0-beta.5
-      '@univerjs/ui': 0.1.0-beta.5
+      '@univerjs/core': 0.1.1
+      '@univerjs/design': 0.1.1
+      '@univerjs/engine-formula': 0.1.1
+      '@univerjs/engine-numfmt': 0.1.1
+      '@univerjs/engine-render': 0.1.1
+      '@univerjs/sheets': 0.1.1
+      '@univerjs/sheets-ui': 0.1.1
+      '@univerjs/ui': 0.1.1
       '@wendellhu/redi': ^0.13.0
       react: '>=16.9.0'
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.1.0-beta.5(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/design': 0.1.0-beta.5(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
-      '@univerjs/engine-formula': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/engine-numfmt': 0.1.0-beta.5
-      '@univerjs/engine-render': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/core': 0.1.1(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/design': 0.1.1(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+      '@univerjs/engine-formula': 0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/engine-numfmt': 0.1.1
+      '@univerjs/engine-render': 0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@univerjs/icons': 0.1.29(react-dom@18.2.0)(react@18.2.0)
-      '@univerjs/sheets': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/engine-formula@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/sheets-ui': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/design@0.1.0-beta.5)(@univerjs/docs@0.1.0-beta.5)(@univerjs/engine-formula@0.1.0-beta.5)(@univerjs/engine-numfmt@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@univerjs/sheets@0.1.0-beta.5)(@univerjs/ui@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
-      '@univerjs/ui': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/design@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+      '@univerjs/sheets': 0.1.1(@univerjs/core@0.1.1)(@univerjs/engine-formula@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/sheets-ui': 0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/docs@0.1.1)(@univerjs/engine-formula@0.1.1)(@univerjs/engine-numfmt@0.1.1)(@univerjs/engine-render@0.1.1)(@univerjs/sheets@0.1.1)(@univerjs/ui@0.1.1)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+      '@univerjs/ui': 0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
       '@wendellhu/redi': 0.13.0
       react: 18.2.0
       rxjs: 7.8.1
@@ -1005,32 +1005,32 @@ packages:
       - react-dom
     dev: false
 
-  /@univerjs/sheets-ui@0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/design@0.1.0-beta.5)(@univerjs/docs@0.1.0-beta.5)(@univerjs/engine-formula@0.1.0-beta.5)(@univerjs/engine-numfmt@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@univerjs/sheets@0.1.0-beta.5)(@univerjs/ui@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1):
-    resolution: {integrity: sha512-O6soXG2q5E7liVfGrNh2BdMZ3QkXJU4etJUYXlkW2lG4/9dygh49T0zYHJ4guCiJIEGfM5EJaCtUlFu+DJ56Tg==}
+  /@univerjs/sheets-ui@0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/docs@0.1.1)(@univerjs/engine-formula@0.1.1)(@univerjs/engine-numfmt@0.1.1)(@univerjs/engine-render@0.1.1)(@univerjs/sheets@0.1.1)(@univerjs/ui@0.1.1)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1):
+    resolution: {integrity: sha512-W0ZrwNCBKuiMaTnShF5u0Wa4G61ncA/kbbchRkNorp76YguvkD3u7H7rdzBVWkZpKHQPyo23qrNY1pr7iBGD/w==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
-      '@univerjs/core': 0.1.0-beta.5
-      '@univerjs/design': 0.1.0-beta.5
-      '@univerjs/docs': 0.1.0-beta.5
-      '@univerjs/engine-formula': 0.1.0-beta.5
-      '@univerjs/engine-numfmt': 0.1.0-beta.5
-      '@univerjs/engine-render': 0.1.0-beta.5
-      '@univerjs/sheets': 0.1.0-beta.5
-      '@univerjs/ui': 0.1.0-beta.5
+      '@univerjs/core': 0.1.1
+      '@univerjs/design': 0.1.1
+      '@univerjs/docs': 0.1.1
+      '@univerjs/engine-formula': 0.1.1
+      '@univerjs/engine-numfmt': 0.1.1
+      '@univerjs/engine-render': 0.1.1
+      '@univerjs/sheets': 0.1.1
+      '@univerjs/ui': 0.1.1
       '@wendellhu/redi': ^0.13.0
       clsx: '>=2.0.0'
       react: '>=16.9.0'
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.1.0-beta.5(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/design': 0.1.0-beta.5(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
-      '@univerjs/docs': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/engine-formula': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/engine-numfmt': 0.1.0-beta.5
-      '@univerjs/engine-render': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/core': 0.1.1(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/design': 0.1.1(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+      '@univerjs/docs': 0.1.1(@univerjs/core@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/engine-formula': 0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/engine-numfmt': 0.1.1
+      '@univerjs/engine-render': 0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@univerjs/icons': 0.1.29(react-dom@18.2.0)(react@18.2.0)
-      '@univerjs/sheets': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/engine-formula@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/ui': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/design@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+      '@univerjs/sheets': 0.1.1(@univerjs/core@0.1.1)(@univerjs/engine-formula@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/ui': 0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
       '@wendellhu/redi': 0.13.0
       clsx: 2.1.0
       react: 18.2.0
@@ -1039,39 +1039,39 @@ packages:
       - react-dom
     dev: false
 
-  /@univerjs/sheets@0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/engine-formula@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1):
-    resolution: {integrity: sha512-QQSLXvZLBmUy8WHesSn/SljP2qk0hkeWIAkQ4+hx5V4z6DPBd6Z8d3M7WfI8APZGIv09UvSbKGGg3IYcAcK52w==}
+  /@univerjs/sheets@0.1.1(@univerjs/core@0.1.1)(@univerjs/engine-formula@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1):
+    resolution: {integrity: sha512-Ec5cIw3ChTxSbuE1ic8g0vXzGsYUHmOVOcbbykZ+a1UQ7mIDFrOs1BF3GDq7lihSe2b6P2P7edNliS7hzuNLRg==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
-      '@univerjs/core': 0.1.0-beta.5
-      '@univerjs/engine-formula': 0.1.0-beta.5
-      '@univerjs/engine-render': 0.1.0-beta.5
+      '@univerjs/core': 0.1.1
+      '@univerjs/engine-formula': 0.1.1
+      '@univerjs/engine-render': 0.1.1
       '@wendellhu/redi': ^0.13.0
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.1.0-beta.5(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/engine-formula': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/core': 0.1.1(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/engine-formula': 0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/engine-render': 0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@wendellhu/redi': 0.13.0
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/ui@0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@univerjs/design@0.1.0-beta.5)(@univerjs/engine-render@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1):
-    resolution: {integrity: sha512-dZ2u46SAPf0J9K//B9eWbxRpHGQEyH1zv5ETiCd73B6YZBSAg7+dsmDh4IGlwUS2yTpJnuVvfXEifSrwva6AXw==}
+  /@univerjs/ui@0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1):
+    resolution: {integrity: sha512-qQMScV2gr/Lh9fzthDieLf2Kw+ksftoCMKE/JPzFpjHRGOj84Cc0l5mifRcILRY4Ov72Am/RPkyrRB7ri6/ZCA==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
-      '@univerjs/core': 0.1.0-beta.5
-      '@univerjs/design': 0.1.0-beta.5
-      '@univerjs/engine-render': 0.1.0-beta.5
+      '@univerjs/core': 0.1.1
+      '@univerjs/design': 0.1.1
+      '@univerjs/engine-render': 0.1.1
       '@wendellhu/redi': ^0.13.0
       clsx: '>=2.0.0'
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.1.0-beta.5(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/design': 0.1.0-beta.5(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.1.0-beta.5(@univerjs/core@0.1.0-beta.5)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/core': 0.1.1(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/design': 0.1.1(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+      '@univerjs/engine-render': 0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@univerjs/icons': 0.1.29(react-dom@18.2.0)(react@18.2.0)
       '@wendellhu/redi': 0.13.0
       clsx: 2.1.0
