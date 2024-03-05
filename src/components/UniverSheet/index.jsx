@@ -7,6 +7,7 @@ import './index.css';
 import { Univer } from '@univerjs/core';
 import { defaultTheme } from '@univerjs/design';
 import { UniverDocsPlugin } from '@univerjs/docs';
+import { UniverDocsUIPlugin } from '@univerjs/docs-ui';
 import { UniverFormulaEnginePlugin } from '@univerjs/engine-formula';
 import { UniverRenderEnginePlugin } from '@univerjs/engine-render';
 import { UniverSheetsPlugin } from '@univerjs/sheets';
@@ -15,6 +16,7 @@ import { UniverSheetsUIPlugin } from '@univerjs/sheets-ui';
 import { UniverUIPlugin } from '@univerjs/ui';
 import { forwardRef, useEffect, useImperativeHandle, useRef } from 'react';
 
+// eslint-disable-next-line react/display-name
 const UniverSheet = forwardRef(({ data }, ref) => {
   const univerRef = useRef(null);
   const workbookRef = useRef(null);
@@ -51,6 +53,7 @@ const UniverSheet = forwardRef(({ data }, ref) => {
     univer.registerPlugin(UniverDocsPlugin, {
       hasScroll: false,
     });
+    univer.registerPlugin(UniverDocsUIPlugin);
 
     // sheet plugins
     univer.registerPlugin(UniverSheetsPlugin);
@@ -87,7 +90,7 @@ const UniverSheet = forwardRef(({ data }, ref) => {
     };
   }, [data]);
 
-  return <div ref={containerRef} class="univer-container"></div>;
+  return <div ref={containerRef} className="univer-container" />;
 });
 
 export default UniverSheet;

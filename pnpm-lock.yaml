@@ -14,6 +14,9 @@ dependencies:
   '@univerjs/docs':
     specifier: 0.1.1
     version: 0.1.1(@univerjs/core@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+  '@univerjs/docs-ui':
+    specifier: 0.1.1
+    version: 0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/docs@0.1.1)(@univerjs/engine-render@0.1.1)(@univerjs/ui@0.1.1)(@wendellhu/redi@0.13.0)
   '@univerjs/engine-formula':
     specifier: 0.1.1
     version: 0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
@@ -876,6 +879,25 @@ packages:
       react-draggable: 4.4.6(react-dom@18.2.0)(react@18.2.0)
       react-transition-group: 4.4.5(react-dom@18.2.0)(react@18.2.0)
       rxjs: 7.8.1
+    dev: false
+
+  /@univerjs/docs-ui@0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/docs@0.1.1)(@univerjs/engine-render@0.1.1)(@univerjs/ui@0.1.1)(@wendellhu/redi@0.13.0):
+    resolution: {integrity: sha512-0d7/E8vrobYPXDcsDT2uCVuf1xO505z0qYCPnTEbkEUKx3bEXRTgeumWDdsR6Zkyxd4dGcG/WTR/EXH0JYKUpA==}
+    engines: {node: '>=16.0.0', npm: '>=8.0.0'}
+    peerDependencies:
+      '@univerjs/core': 0.1.1
+      '@univerjs/design': 0.1.1
+      '@univerjs/docs': 0.1.1
+      '@univerjs/engine-render': 0.1.1
+      '@univerjs/ui': 0.1.1
+      '@wendellhu/redi': ^0.13.0
+    dependencies:
+      '@univerjs/core': 0.1.1(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/design': 0.1.1(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+      '@univerjs/docs': 0.1.1(@univerjs/core@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/engine-render': 0.1.1(@univerjs/core@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
+      '@univerjs/ui': 0.1.1(@univerjs/core@0.1.1)(@univerjs/design@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
+      '@wendellhu/redi': 0.13.0
     dev: false
 
   /@univerjs/docs@0.1.1(@univerjs/core@0.1.1)(@univerjs/engine-render@0.1.1)(@wendellhu/redi@0.13.0)(rxjs@7.8.1):
