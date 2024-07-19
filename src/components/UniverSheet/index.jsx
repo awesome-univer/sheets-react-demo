@@ -61,7 +61,7 @@ const UniverSheet = forwardRef(({ data }, ref) => {
     univer.registerPlugin(UniverSheetsFormulaPlugin);
 
     // create workbook instance
-    univer.createUnit(UniverInstanceType.UNIVER_SHEET, data);
+    workbookRef.current = univer.createUnit(UniverInstanceType.UNIVER_SHEET, data);
   };
 
   /**
