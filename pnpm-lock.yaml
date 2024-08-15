@@ -971,7 +971,7 @@ packages:
       '@rc-component/color-picker': 1.9.0(react-dom@18.3.1)(react@18.3.1)
       '@rc-component/trigger': 2.2.0(react-dom@18.3.1)(react@18.3.1)
       '@types/react-mentions': 4.1.13
-      '@univerjs/icons': 0.1.74(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.75(react-dom@18.3.1)(react@18.3.1)
       clsx: 2.1.1
       dayjs: 1.11.12
       rc-dialog: 9.5.2(react-dom@18.3.1)(react@18.3.1)
@@ -1066,8 +1066,8 @@ packages:
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/icons@0.1.74(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-JP1NUDod6jg5OOHzK1FmcJ+0qXF24MisyBC333Nz8SXAk1IKsdr89AyTEpbSXFDl8vI7xRpttCvW6hQ84s0lLg==}
+  /@univerjs/icons@0.1.75(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-gnjPZzjCoMpotmTx2gOSV+oSBmiq2hz2wHsPPlB9RcpoGJOxgWpaBzfPifulB8BrgIUKFHj8GLlca+3snlka5g==}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -1127,7 +1127,7 @@ packages:
       '@univerjs/docs': 0.2.6(@univerjs/core@0.2.6)(@univerjs/engine-render@0.2.6)(rxjs@7.8.1)
       '@univerjs/engine-formula': 0.2.6(@univerjs/core@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
       '@univerjs/engine-render': 0.2.6(@univerjs/core@0.2.6)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.74(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.75(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/rpc': 0.2.6(@univerjs/core@0.2.6)(rxjs@7.8.1)
       '@univerjs/sheets': 0.2.6(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
       '@univerjs/sheets-ui': 0.2.6(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/docs-ui@0.2.6)(@univerjs/docs@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/engine-render@0.2.6)(@univerjs/sheets@0.2.6)(@univerjs/ui@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
@@ -1155,7 +1155,7 @@ packages:
       '@univerjs/design': 0.2.6(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/engine-numfmt': 0.2.6
       '@univerjs/engine-render': 0.2.6(@univerjs/core@0.2.6)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.74(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.75(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/sheets': 0.2.6(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
       '@univerjs/sheets-ui': 0.2.6(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/docs-ui@0.2.6)(@univerjs/docs@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/engine-render@0.2.6)(@univerjs/sheets@0.2.6)(@univerjs/ui@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/ui': 0.2.6(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-render@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
@@ -1188,7 +1188,7 @@ packages:
       '@univerjs/engine-formula': 0.2.6(@univerjs/core@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
       '@univerjs/engine-numfmt': 0.2.6
       '@univerjs/engine-render': 0.2.6(@univerjs/core@0.2.6)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.74(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.75(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/protocol': 0.1.38-alpha.23(@grpc/grpc-js@1.11.1)(rxjs@7.8.1)
       '@univerjs/sheets': 0.2.6(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
       '@univerjs/ui': 0.2.6(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-render@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
@@ -1236,7 +1236,7 @@ packages:
       '@univerjs/design': 0.2.6(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/engine-formula': 0.2.6(@univerjs/core@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
       '@univerjs/engine-render': 0.2.6(@univerjs/core@0.2.6)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.74(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.75(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/ui': 0.2.6(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-render@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
       clsx: 2.1.1
       localforage: 1.10.0
@@ -1246,7 +1246,7 @@ packages:
       react-dom: 18.3.1(react@18.3.1)
       rxjs: 7.8.1
     optionalDependencies:
-      vue: 3.4.37
+      vue: 3.4.38
     transitivePeerDependencies:
       - typescript
     dev: false
@@ -1272,36 +1272,36 @@ packages:
       - supports-color
     dev: true
 
-  /@vue/compiler-core@3.4.37:
-    resolution: {integrity: sha512-ZDDT/KiLKuCRXyzWecNzC5vTcubGz4LECAtfGPENpo0nrmqJHwuWtRLxk/Sb9RAKtR9iFflFycbkjkY+W/PZUQ==}
+  /@vue/compiler-core@3.4.38:
+    resolution: {integrity: sha512-8IQOTCWnLFqfHzOGm9+P8OPSEDukgg3Huc92qSG49if/xI2SAwLHQO2qaPQbjCWPBcQoO1WYfXfTACUrWV3c5A==}
     requiresBuild: true
     dependencies:
       '@babel/parser': 7.25.3
-      '@vue/shared': 3.4.37
-      entities: 5.0.0
+      '@vue/shared': 3.4.38
+      entities: 4.5.0
       estree-walker: 2.0.2
       source-map-js: 1.2.0
     dev: false
     optional: true
 
-  /@vue/compiler-dom@3.4.37:
-    resolution: {integrity: sha512-rIiSmL3YrntvgYV84rekAtU/xfogMUJIclUMeIKEtVBFngOL3IeZHhsH3UaFEgB5iFGpj6IW+8YuM/2Up+vVag==}
+  /@vue/compiler-dom@3.4.38:
+    resolution: {integrity: sha512-Osc/c7ABsHXTsETLgykcOwIxFktHfGSUDkb05V61rocEfsFDcjDLH/IHJSNJP+/Sv9KeN2Lx1V6McZzlSb9EhQ==}
     requiresBuild: true
     dependencies:
-      '@vue/compiler-core': 3.4.37
-      '@vue/shared': 3.4.37
+      '@vue/compiler-core': 3.4.38
+      '@vue/shared': 3.4.38
     dev: false
     optional: true
 
-  /@vue/compiler-sfc@3.4.37:
-    resolution: {integrity: sha512-vCfetdas40Wk9aK/WWf8XcVESffsbNkBQwS5t13Y/PcfqKfIwJX2gF+82th6dOpnpbptNMlMjAny80li7TaCIg==}
+  /@vue/compiler-sfc@3.4.38:
+    resolution: {integrity: sha512-s5QfZ+9PzPh3T5H4hsQDJtI8x7zdJaew/dCGgqZ2630XdzaZ3AD8xGZfBqpT8oaD/p2eedd+pL8tD5vvt5ZYJQ==}
     requiresBuild: true
     dependencies:
       '@babel/parser': 7.25.3
-      '@vue/compiler-core': 3.4.37
-      '@vue/compiler-dom': 3.4.37
-      '@vue/compiler-ssr': 3.4.37
-      '@vue/shared': 3.4.37
+      '@vue/compiler-core': 3.4.38
+      '@vue/compiler-dom': 3.4.38
+      '@vue/compiler-ssr': 3.4.38
+      '@vue/shared': 3.4.38
       estree-walker: 2.0.2
       magic-string: 0.30.11
       postcss: 8.4.41
@@ -1309,57 +1309,57 @@ packages:
     dev: false
     optional: true
 
-  /@vue/compiler-ssr@3.4.37:
-    resolution: {integrity: sha512-TyAgYBWrHlFrt4qpdACh8e9Ms6C/AZQ6A6xLJaWrCL8GCX5DxMzxyeFAEMfU/VFr4tylHm+a2NpfJpcd7+20XA==}
+  /@vue/compiler-ssr@3.4.38:
+    resolution: {integrity: sha512-YXznKFQ8dxYpAz9zLuVvfcXhc31FSPFDcqr0kyujbOwNhlmaNvL2QfIy+RZeJgSn5Fk54CWoEUeW+NVBAogGaw==}
     requiresBuild: true
     dependencies:
-      '@vue/compiler-dom': 3.4.37
-      '@vue/shared': 3.4.37
+      '@vue/compiler-dom': 3.4.38
+      '@vue/shared': 3.4.38
     dev: false
     optional: true
 
-  /@vue/reactivity@3.4.37:
-    resolution: {integrity: sha512-UmdKXGx0BZ5kkxPqQr3PK3tElz6adTey4307NzZ3whZu19i5VavYal7u2FfOmAzlcDVgE8+X0HZ2LxLb/jgbYw==}
+  /@vue/reactivity@3.4.38:
+    resolution: {integrity: sha512-4vl4wMMVniLsSYYeldAKzbk72+D3hUnkw9z8lDeJacTxAkXeDAP1uE9xr2+aKIN0ipOL8EG2GPouVTH6yF7Gnw==}
     requiresBuild: true
     dependencies:
-      '@vue/shared': 3.4.37
+      '@vue/shared': 3.4.38
     dev: false
     optional: true
 
-  /@vue/runtime-core@3.4.37:
-    resolution: {integrity: sha512-MNjrVoLV/sirHZoD7QAilU1Ifs7m/KJv4/84QVbE6nyAZGQNVOa1HGxaOzp9YqCG+GpLt1hNDC4RbH+KtanV7w==}
+  /@vue/runtime-core@3.4.38:
+    resolution: {integrity: sha512-21z3wA99EABtuf+O3IhdxP0iHgkBs1vuoCAsCKLVJPEjpVqvblwBnTj42vzHRlWDCyxu9ptDm7sI2ZMcWrQqlA==}
     requiresBuild: true
     dependencies:
-      '@vue/reactivity': 3.4.37
-      '@vue/shared': 3.4.37
+      '@vue/reactivity': 3.4.38
+      '@vue/shared': 3.4.38
     dev: false
     optional: true
 
-  /@vue/runtime-dom@3.4.37:
-    resolution: {integrity: sha512-Mg2EwgGZqtwKrqdL/FKMF2NEaOHuH+Ks9TQn3DHKyX//hQTYOun+7Tqp1eo0P4Ds+SjltZshOSRq6VsU0baaNg==}
+  /@vue/runtime-dom@3.4.38:
+    resolution: {integrity: sha512-afZzmUreU7vKwKsV17H1NDThEEmdYI+GCAK/KY1U957Ig2NATPVjCROv61R19fjZNzMmiU03n79OMnXyJVN0UA==}
     requiresBuild: true
     dependencies:
-      '@vue/reactivity': 3.4.37
-      '@vue/runtime-core': 3.4.37
-      '@vue/shared': 3.4.37
+      '@vue/reactivity': 3.4.38
+      '@vue/runtime-core': 3.4.38
+      '@vue/shared': 3.4.38
       csstype: 3.1.3
     dev: false
     optional: true
 
-  /@vue/server-renderer@3.4.37(vue@3.4.37):
-    resolution: {integrity: sha512-jZ5FAHDR2KBq2FsRUJW6GKDOAG9lUTX8aBEGq4Vf6B/35I9fPce66BornuwmqmKgfiSlecwuOb6oeoamYMohkg==}
+  /@vue/server-renderer@3.4.38(vue@3.4.38):
+    resolution: {integrity: sha512-NggOTr82FbPEkkUvBm4fTGcwUY8UuTsnWC/L2YZBmvaQ4C4Jl/Ao4HHTB+l7WnFCt5M/dN3l0XLuyjzswGYVCA==}
     requiresBuild: true
     peerDependencies:
-      vue: 3.4.37
+      vue: 3.4.38
     dependencies:
-      '@vue/compiler-ssr': 3.4.37
-      '@vue/shared': 3.4.37
-      vue: 3.4.37
+      '@vue/compiler-ssr': 3.4.38
+      '@vue/shared': 3.4.38
+      vue: 3.4.38
     dev: false
     optional: true
 
-  /@vue/shared@3.4.37:
-    resolution: {integrity: sha512-nIh8P2fc3DflG8+5Uw8PT/1i17ccFn0xxN/5oE9RfV5SVnd7G0XEFRwakrnNFE/jlS95fpGXDVG5zDETS26nmg==}
+  /@vue/shared@3.4.38:
+    resolution: {integrity: sha512-q0xCiLkuWWQLzVrecPb0RMsNWyxICOjPrcrwxTUEHb1fsnvni4dcuyG7RT/Ie7VPTvnjzIaWzRMUBsrqNj/hhw==}
     requiresBuild: true
     dev: false
     optional: true
@@ -1727,8 +1727,8 @@ packages:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
     dev: false
 
-  /entities@5.0.0:
-    resolution: {integrity: sha512-BeJFvFRJddxobhvEdm5GqHzRV/X+ACeuw0/BuuxsCh1EUZcAIz8+kYmBp/LrQuloy6K1f3a0M7+IhmZ7QnkISA==}
+  /entities@4.5.0:
+    resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
     engines: {node: '>=0.12'}
     requiresBuild: true
     dev: false
@@ -3620,8 +3620,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vue@3.4.37:
-    resolution: {integrity: sha512-3vXvNfkKTBsSJ7JP+LyR7GBuwQuckbWvuwAid3xbqK9ppsKt/DUvfqgZ48fgOLEfpy1IacL5f8QhUVl77RaI7A==}
+  /vue@3.4.38:
+    resolution: {integrity: sha512-f0ZgN+mZ5KFgVv9wz0f4OgVKukoXtS3nwET4c2vLBGQR50aI8G0cqbFtLlX9Yiyg3LFGBitruPHt2PxwTduJEw==}
     requiresBuild: true
     peerDependencies:
       typescript: '*'
@@ -3629,11 +3629,11 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@vue/compiler-dom': 3.4.37
-      '@vue/compiler-sfc': 3.4.37
-      '@vue/runtime-dom': 3.4.37
-      '@vue/server-renderer': 3.4.37(vue@3.4.37)
-      '@vue/shared': 3.4.37
+      '@vue/compiler-dom': 3.4.38
+      '@vue/compiler-sfc': 3.4.38
+      '@vue/runtime-dom': 3.4.38
+      '@vue/server-renderer': 3.4.38(vue@3.4.38)
+      '@vue/shared': 3.4.38
     dev: false
     optional: true
 
