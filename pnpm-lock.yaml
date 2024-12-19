@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@univerjs/core':
     specifier: 0.2.6
-    version: 0.2.6(@grpc/grpc-js@1.12.4)(react@18.3.1)(rxjs@7.8.1)
+    version: 0.2.6(@grpc/grpc-js@1.12.5)(react@18.3.1)(rxjs@7.8.1)
   '@univerjs/design':
     specifier: 0.2.6
     version: 0.2.6(clsx@2.1.1)(dayjs@1.11.13)(react-dom@18.3.1)(react@18.3.1)
@@ -34,7 +34,7 @@ dependencies:
     version: 0.2.6(@univerjs/core@0.2.6)(rxjs@7.8.1)
   '@univerjs/sheets':
     specifier: 0.2.6
-    version: 0.2.6(@grpc/grpc-js@1.12.4)(@univerjs/core@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
+    version: 0.2.6(@grpc/grpc-js@1.12.5)(@univerjs/core@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
   '@univerjs/sheets-formula':
     specifier: 0.2.6
     version: 0.2.6(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/docs@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-render@0.2.6)(@univerjs/rpc@0.2.6)(@univerjs/sheets-ui@0.2.6)(@univerjs/sheets@0.2.6)(@univerjs/ui@0.2.6)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
@@ -43,7 +43,7 @@ dependencies:
     version: 0.2.6(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/engine-render@0.2.6)(@univerjs/sheets-ui@0.2.6)(@univerjs/sheets@0.2.6)(@univerjs/ui@0.2.6)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
   '@univerjs/sheets-ui':
     specifier: 0.2.6
-    version: 0.2.6(@grpc/grpc-js@1.12.4)(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/docs-ui@0.2.6)(@univerjs/docs@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/engine-render@0.2.6)(@univerjs/sheets@0.2.6)(@univerjs/ui@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
+    version: 0.2.6(@grpc/grpc-js@1.12.5)(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/docs-ui@0.2.6)(@univerjs/docs@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/engine-render@0.2.6)(@univerjs/sheets@0.2.6)(@univerjs/ui@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
   '@univerjs/ui':
     specifier: 0.2.6
     version: 0.2.6(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-render@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
@@ -599,8 +599,8 @@ packages:
     resolution: {integrity: sha512-X8R8Oj771YRl/w+c1HqAC1szL8zWQRwFvgDwT129k9ACdBoud/+/rX9V0qiMl6LWUdP9voC2nDVZYPMQQsb6eA==}
     dev: false
 
-  /@grpc/grpc-js@1.12.4:
-    resolution: {integrity: sha512-NBhrxEWnFh0FxeA0d//YP95lRFsSx2TNLEUQg4/W+5f/BMxcCjgOOIT24iD+ZB/tZw057j44DaIxja7w4XMrhg==}
+  /@grpc/grpc-js@1.12.5:
+    resolution: {integrity: sha512-d3iiHxdpg5+ZcJ6jnDSOT8Z0O0VMVGy34jAnYLUX8yd36b1qn8f1TwOA/Lc7TsOh03IkPJ38eGI5qD2EjNkoEA==}
     engines: {node: '>=12.10.0'}
     dependencies:
       '@grpc/proto-loader': 0.7.13
@@ -981,13 +981,13 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@univerjs/core@0.2.6(@grpc/grpc-js@1.12.4)(react@18.3.1)(rxjs@7.8.1):
+  /@univerjs/core@0.2.6(@grpc/grpc-js@1.12.5)(react@18.3.1)(rxjs@7.8.1):
     resolution: {integrity: sha512-ViTIMtbNjS7W8oZTvub71y7zzMn4mFTmFLyfO10CI7cF8LD8pIQVx6mChYJpA+UtkBkciNB4uR+aKA9Hp9VBKg==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/protocol': 0.1.38-alpha.23(@grpc/grpc-js@1.12.4)(rxjs@7.8.1)
+      '@univerjs/protocol': 0.1.38-alpha.23(@grpc/grpc-js@1.12.5)(rxjs@7.8.1)
       '@wendellhu/redi': 0.16.0
       nanoid: 5.0.7
       numeral: 2.0.6
@@ -1047,7 +1047,7 @@ packages:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.4)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.5)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/design': 0.2.6(clsx@2.1.1)(dayjs@1.11.13)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/docs': 0.2.6(@univerjs/core@0.2.6)(@univerjs/engine-render@0.2.6)(rxjs@7.8.1)
       '@univerjs/engine-render': 0.2.6(@univerjs/core@0.2.6)(rxjs@7.8.1)
@@ -1064,7 +1064,7 @@ packages:
       '@univerjs/engine-render': 0.2.6
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.4)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.5)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/engine-render': 0.2.6(@univerjs/core@0.2.6)(rxjs@7.8.1)
       rxjs: 7.8.1
     dev: false
@@ -1076,7 +1076,7 @@ packages:
       '@univerjs/rpc': 0.2.6
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.4)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.5)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/rpc': 0.2.6(@univerjs/core@0.2.6)(rxjs@7.8.1)
       big.js: 6.2.1
       numfmt: 2.5.2
@@ -1097,7 +1097,7 @@ packages:
     dependencies:
       '@floating-ui/dom': 1.6.10
       '@floating-ui/utils': 0.2.7
-      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.4)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.5)(react@18.3.1)(rxjs@7.8.1)
       cjk-regex: 3.1.0
       franc-min: 6.2.0
       opentype.js: 1.3.4
@@ -1120,18 +1120,18 @@ packages:
       '@univerjs/core': 0.2.6
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.4)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.5)(react@18.3.1)(rxjs@7.8.1)
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/protocol@0.1.38-alpha.23(@grpc/grpc-js@1.12.4)(rxjs@7.8.1):
+  /@univerjs/protocol@0.1.38-alpha.23(@grpc/grpc-js@1.12.5)(rxjs@7.8.1):
     resolution: {integrity: sha512-GYgPtDg7whzXKb41lIduYuCord1YJK0FXmSBX42femtWTOD34bbhmJjt/+rPiVWFMNTDdHrT+E0wH1ugxOm5xQ==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
       '@grpc/grpc-js': ^1.9.14
       rxjs: '>=7.0.0'
     dependencies:
-      '@grpc/grpc-js': 1.12.4
+      '@grpc/grpc-js': 1.12.5
       rxjs: 7.8.1
     dev: false
 
@@ -1141,7 +1141,7 @@ packages:
       '@univerjs/core': 0.2.6
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.4)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.5)(react@18.3.1)(rxjs@7.8.1)
       rxjs: 7.8.1
     dev: false
 
@@ -1160,15 +1160,15 @@ packages:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.4)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.5)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/design': 0.2.6(clsx@2.1.1)(dayjs@1.11.13)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/docs': 0.2.6(@univerjs/core@0.2.6)(@univerjs/engine-render@0.2.6)(rxjs@7.8.1)
       '@univerjs/engine-formula': 0.2.6(@univerjs/core@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
       '@univerjs/engine-render': 0.2.6(@univerjs/core@0.2.6)(rxjs@7.8.1)
       '@univerjs/icons': 0.1.87(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/rpc': 0.2.6(@univerjs/core@0.2.6)(rxjs@7.8.1)
-      '@univerjs/sheets': 0.2.6(@grpc/grpc-js@1.12.4)(@univerjs/core@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
-      '@univerjs/sheets-ui': 0.2.6(@grpc/grpc-js@1.12.4)(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/docs-ui@0.2.6)(@univerjs/docs@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/engine-render@0.2.6)(@univerjs/sheets@0.2.6)(@univerjs/ui@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/sheets': 0.2.6(@grpc/grpc-js@1.12.5)(@univerjs/core@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
+      '@univerjs/sheets-ui': 0.2.6(@grpc/grpc-js@1.12.5)(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/docs-ui@0.2.6)(@univerjs/docs@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/engine-render@0.2.6)(@univerjs/sheets@0.2.6)(@univerjs/ui@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/ui': 0.2.6(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-render@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
       react: 18.3.1
       rxjs: 7.8.1
@@ -1189,13 +1189,13 @@ packages:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.4)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.5)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/design': 0.2.6(clsx@2.1.1)(dayjs@1.11.13)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/engine-numfmt': 0.2.6
       '@univerjs/engine-render': 0.2.6(@univerjs/core@0.2.6)(rxjs@7.8.1)
       '@univerjs/icons': 0.1.87(react-dom@18.3.1)(react@18.3.1)
-      '@univerjs/sheets': 0.2.6(@grpc/grpc-js@1.12.4)(@univerjs/core@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
-      '@univerjs/sheets-ui': 0.2.6(@grpc/grpc-js@1.12.4)(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/docs-ui@0.2.6)(@univerjs/docs@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/engine-render@0.2.6)(@univerjs/sheets@0.2.6)(@univerjs/ui@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/sheets': 0.2.6(@grpc/grpc-js@1.12.5)(@univerjs/core@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
+      '@univerjs/sheets-ui': 0.2.6(@grpc/grpc-js@1.12.5)(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/docs-ui@0.2.6)(@univerjs/docs@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/engine-render@0.2.6)(@univerjs/sheets@0.2.6)(@univerjs/ui@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/ui': 0.2.6(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-render@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
       react: 18.3.1
       rxjs: 7.8.1
@@ -1203,7 +1203,7 @@ packages:
       - react-dom
     dev: false
 
-  /@univerjs/sheets-ui@0.2.6(@grpc/grpc-js@1.12.4)(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/docs-ui@0.2.6)(@univerjs/docs@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/engine-render@0.2.6)(@univerjs/sheets@0.2.6)(@univerjs/ui@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1):
+  /@univerjs/sheets-ui@0.2.6(@grpc/grpc-js@1.12.5)(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/docs-ui@0.2.6)(@univerjs/docs@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/engine-render@0.2.6)(@univerjs/sheets@0.2.6)(@univerjs/ui@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1):
     resolution: {integrity: sha512-nzOg2QyiY3hdGWxQ88OO26W3Q7KjBuA+PYtdahAPefU96lzs4XDQWzdMVnC1Y4PFY2wEky35cIFw3jQNCixVxg==}
     peerDependencies:
       '@univerjs/core': 0.2.6
@@ -1219,7 +1219,7 @@ packages:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.4)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.5)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/design': 0.2.6(clsx@2.1.1)(dayjs@1.11.13)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/docs': 0.2.6(@univerjs/core@0.2.6)(@univerjs/engine-render@0.2.6)(rxjs@7.8.1)
       '@univerjs/docs-ui': 0.2.6(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/docs@0.2.6)(@univerjs/engine-render@0.2.6)(@univerjs/ui@0.2.6)(clsx@2.1.1)(react@18.3.1)(rxjs@7.8.1)
@@ -1227,8 +1227,8 @@ packages:
       '@univerjs/engine-numfmt': 0.2.6
       '@univerjs/engine-render': 0.2.6(@univerjs/core@0.2.6)(rxjs@7.8.1)
       '@univerjs/icons': 0.1.87(react-dom@18.3.1)(react@18.3.1)
-      '@univerjs/protocol': 0.1.38-alpha.23(@grpc/grpc-js@1.12.4)(rxjs@7.8.1)
-      '@univerjs/sheets': 0.2.6(@grpc/grpc-js@1.12.4)(@univerjs/core@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
+      '@univerjs/protocol': 0.1.38-alpha.23(@grpc/grpc-js@1.12.5)(rxjs@7.8.1)
+      '@univerjs/sheets': 0.2.6(@grpc/grpc-js@1.12.5)(@univerjs/core@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
       '@univerjs/ui': 0.2.6(@univerjs/core@0.2.6)(@univerjs/design@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-render@0.2.6)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
       clsx: 2.1.1
       react: 18.3.1
@@ -1238,7 +1238,7 @@ packages:
       - react-dom
     dev: false
 
-  /@univerjs/sheets@0.2.6(@grpc/grpc-js@1.12.4)(@univerjs/core@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1):
+  /@univerjs/sheets@0.2.6(@grpc/grpc-js@1.12.5)(@univerjs/core@0.2.6)(@univerjs/engine-formula@0.2.6)(@univerjs/engine-numfmt@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1):
     resolution: {integrity: sha512-QWKIAgwbARY8zPeW2KeO1I1Q0EN7cF1aukfCJ229Joruxy4p3HC5+GS7z8w8yFNRPKSdaFb9tz4wzqxuF2fvZQ==}
     peerDependencies:
       '@univerjs/core': 0.2.6
@@ -1247,10 +1247,10 @@ packages:
       '@univerjs/rpc': 0.2.6
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.4)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.5)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/engine-formula': 0.2.6(@univerjs/core@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
       '@univerjs/engine-numfmt': 0.2.6
-      '@univerjs/protocol': 0.1.38-alpha.23(@grpc/grpc-js@1.12.4)(rxjs@7.8.1)
+      '@univerjs/protocol': 0.1.38-alpha.23(@grpc/grpc-js@1.12.5)(rxjs@7.8.1)
       '@univerjs/rpc': 0.2.6(@univerjs/core@0.2.6)(rxjs@7.8.1)
       rxjs: 7.8.1
     transitivePeerDependencies:
@@ -1270,7 +1270,7 @@ packages:
       react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.4)(react@18.3.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.2.6(@grpc/grpc-js@1.12.5)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/design': 0.2.6(clsx@2.1.1)(dayjs@1.11.13)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/engine-formula': 0.2.6(@univerjs/core@0.2.6)(@univerjs/rpc@0.2.6)(rxjs@7.8.1)
       '@univerjs/engine-render': 0.2.6(@univerjs/core@0.2.6)(rxjs@7.8.1)
